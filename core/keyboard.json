@@ -1,0 +1,40 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Телефоны преподавателей"
+      },
+      "color": "positive"
+    },
+      {
+        "action": {
+          "type": "text",
+          "label": "Почты преподавателей"
+        },
+        "color": "positive"
+      }],
+    [{
+      "action": {
+        "type": "text",
+        "label": "Отправить почту"
+      },
+      "color": "negative"
+    }],
+    [{
+      "action": {
+        "type": "text",
+        "label": "/main"
+      },
+      "color": "default"
+    },
+      {
+        "action": {
+          "type": "text",
+          "label": "/send"
+        },
+        "color": "default"
+      }]
+  ]
+}
