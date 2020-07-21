@@ -12,7 +12,7 @@ class SwitchManager:
         self.command = None
         self.last_answer = None
 
-        self.mail = Mail('mai2019.group124@gmail.com', 'M301242019')
+        self.mail = Mail('', '')
 
     def swap(self, mode):
         self.previous_mode = self.current_mode
@@ -54,7 +54,7 @@ class SwitchManager:
                 if message != 'Отправить почту':
                         return "Необходимо отправить почту или выйти из режима командой."
 
-                self.mail.gmailCreateMsg('Test', 'fu4re1@gmail.com', self.last_answer)
+                self.mail.gmailCreateMsg('Test', '', self.last_answer)
                 self.swap(Mode.mainMode)
                 return "Почта отправлена!"
 
